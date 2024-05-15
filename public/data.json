@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "./smile.png",
+    "description": "Smiles that communicate positive intention, trustworthiness, belongingness, compassion, and social connection"
+  },
+  {
+    "id": 2,
+    "name": "./sad.png",
+    "description": "Sadness is an emotional pain associated with, or characterized by, feelings of disadvantage, loss, despair, grief, helplessness, disappointment and sorrow"
+  },
+  {
+    "id": 3,
+    "name": "./happy.png",
+    "description": "Happiness is a positive and pleasant emotion, ranging from contentment to intense joy. "
+  }
+]
