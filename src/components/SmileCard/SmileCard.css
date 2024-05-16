@@ -1,0 +1,71 @@
+
+.container {
+    justify-content: space-around;
+
+}
+
+.smileCard {
+    margin-top: 150px;
+    justify-content: center;
+    text-align: center;
+
+
+    img {
+        width: 320px;
+        transition-duration: 3s;
+        scale: 100%;
+    }
+
+    .results-data, .description {
+        width: 320px;
+        text-align: center;
+        scale: 100%;
+        transition-duration: 1s;
+    }
+
+    .vote-button, .back-btn {
+        width: fit-content(150px);
+        font-size: 16px;
+        font-family: "American Typewriter", serif;
+        scale: 100%;
+        transition-duration: 1s;
+        border-radius: 50%;
+        border-color: gold;
+        background-color: black;
+        color: blanchedalmond;
+        padding: 20px;
+    }
+
+    transition-duration: 3s;
+}
+
+.smileCard:hover {
+    img {
+        transform-origin: initial;
+        transform: rotate(360deg) translateY(-20%);
+        transition-timing-function: ease-in-out;
+        transition-duration: 4s;
+        transition-delay: 250ms;
+        scale: 150%;
+    }
+
+    margin-top: 180px;
+    justify-content: space-around;
+
+    .vote-button {
+        color: cornflowerblue;
+    }
+
+    .description {
+        scale: 120%;
+        transition-duration: 1s;
+    }
+}
+
+.results-data {
+    font-family: cursive;
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
